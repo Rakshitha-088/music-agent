@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Music Generator</title>
+</head>
+
+<body>
+
+<h1>AI Music Generation Platform</h1>
+
+<form action="/generate" method="POST">
+
+<label>Mood</label><br>
+<select name="mood">
+<option>Happy</option>
+<option>Sad</option>
+<option>Calm</option>
+<option>Epic</option>
+</select><br><br>
+
+<label>Genre</label><br>
+<select name="genre">
+<option>Pop</option>
+<option>Rock</option>
+<option>Lo-fi</option>
+<option>Classical</option>
+</select><br><br>
+
+<label>Duration (seconds)</label><br>
+<input type="number" name="duration"><br><br>
+
+<label>Tempo (BPM)</label><br>
+<input type="number" name="tempo"><br><br>
+
+<label>Loop Music</label>
+<input type="checkbox" name="loop"><br><br>
+
+<button type="submit">Generate Music</button>
+
+</form>
+
+<br>
+
+<a href="/songs">View Tamil Songs Library</a>
+
+</body>
+</html>

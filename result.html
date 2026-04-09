@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Generated Music</title>
+</head>
+
+<body>
+
+<h1>Generated Track</h1>
+
+<p><b>Title:</b> {{ title }}</p>
+<p><b>Mood:</b> {{ mood }}</p>
+<p><b>Genre:</b> {{ genre }}</p>
+<p><b>Duration:</b> {{ duration }} seconds</p>
+<p><b>Tempo:</b> {{ tempo }} BPM</p>
+<p><b>Loop:</b> {{ loop }}</p>
+
+<br>
+
+<audio controls>
+<source src="/static/music.mp3" type="audio/mpeg">
+</audio>
+
+<br><br>
+
+<a href="/">Generate Another</a>
+
+</body>
+</html>

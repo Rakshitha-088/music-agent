@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tamil Songs</title>
+</head>
+
+<body>
+
+<h1>Tamil Songs Library</h1>
+
+<ul>
+{% for song in songs %}
+<li>
+<a href="/lyrics/{{ song }}">{{ song }}</a>
+</li>
+{% endfor %}
+</ul>
+
+<a href="/">Back</a>
+
+</body>
+</html>
